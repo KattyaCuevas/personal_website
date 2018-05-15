@@ -2,5 +2,12 @@
   "env": {
     "SECRET_KEY_BASE": "@secret_key_base"
   },
-  "alias": "kattyacuevas.com"
+  "alias": "kattyacuevas.com",
+  "type": "docker",
+  "scale": {
+    "sfo1": {
+      "min": 1,
+      "max": "auto"
+    }
+  }
 }
