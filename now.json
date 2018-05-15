@@ -1,0 +1,6 @@
+{
+  "env": {
+    "SECRET_KEY_BASE": "@secret_key_base"
+  },
+  "alias": "kattyacuevas.com"
+}
