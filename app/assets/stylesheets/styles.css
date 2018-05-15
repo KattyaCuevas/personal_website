@@ -1,0 +1,85 @@
+:root {
+  --color: #000000;
+}
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+main > section {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1, h2 {
+  display: inline;
+}
+
+section#bio {
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+}
+section#bio article { margin: 0.5em; }
+
+h2 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 200;
+}
+
+section#social ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.5em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+section#social a {
+  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0.5em;
+  display: block;
+}
+
+section#paypal a {
+  color: #067df7;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (min-width: 720px) {
+  section#bio { font-size: 2.5em; }
+}
